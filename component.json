@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/huya-fed/attribute.git",
+    "version": "v1.2.0",
+    "name": "attribute",
+    "main": "attribute.js"
+}
