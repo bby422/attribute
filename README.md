@@ -132,7 +132,7 @@ attrs 的设置
 	            return Math.ceil(this.get('panels').length / this.get('step'));
 	        }
 	    }
-}
+	}
 
 set .set(key, value, options)
 
