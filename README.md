@@ -69,7 +69,7 @@
 	
 	console.log(panel.get('color')); // '#f00'
 	console.log(panel.get('size')); // { width: 200, height: 100 }
-```
+
 
 在初始化时，实例中的 _onChangeX 方法会自动注册到 change:x 事件的回调队列中：
 
@@ -79,11 +79,14 @@
 	var panel = new Panel({ element: '#test' });
 	panel.set('color', '#00f'); // this.element 的背景色自动变为 '#00f'
 
+
 虽然在组件实例化的时候也会设置属性，但不会触发 change:x 事件，即不会执行 _onChangeX。
+
 
 ##API
 
 attrs 的设置
+
 
 类定义时, 通过设置 attrs 来定义该类有哪些属性, 每个属性是通过如下方式定义的:
 
